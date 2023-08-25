@@ -19,6 +19,10 @@ body {
     font-weight: 700;
 }
 
+.common-padding {
+    padding: 0 240px;
+}
+
 /* main banner styles */
 header {
     display: flex;
@@ -71,7 +75,6 @@ header {
 }
 
 .flowers {
-    padding: 0 240px;
     margin-top: 60px;
     display: flex;
     align-items: center;
@@ -91,16 +94,19 @@ header {
 
 .flower-border-radious {
     border-radius: 300px 300px 0px 0px;
-    width: 464px;
+    width: 400px;
     height: 538px;
-}
-#flower-01{
-    background: rgba(167, 33, 98, 0.15);
-}
-#flower-02{
-    background: rgba(5, 151, 160, 0.15);
-}
-#flower-03{
-    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 70px 0px 70px;
 }
 
+#flower-01 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#flower-02 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#flower-03 {
+    background: rgba(71, 125, 17, 0.15);
+}
