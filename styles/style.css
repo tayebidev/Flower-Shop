@@ -79,7 +79,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 25px;
 }
 
@@ -109,4 +109,26 @@ header {
 
 #flower-03 {
     background: rgba(71, 125, 17, 0.15);
+}
+
+/* extra section styles */
+.extra-container {
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 86px 146px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 5px;
+}
+
+
+.extra-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 25px;
 }
