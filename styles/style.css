@@ -164,8 +164,9 @@ header {
     margin-top: 24px;
     margin-bottom: 30px;
 }
+
 /* Instagram styles */
-.insta-container{
+.insta-container {
     text-align: center;
     width: 600px;
     margin: auto;
@@ -185,14 +186,46 @@ header {
     margin-top: 25px;
     margin-bottom: 45px;
 }
-.flower-content{
+
+.flower-content {
     gap: 25px;
     text-align: center;
     justify-content: space-between;
     display: flex;
     margin-bottom: 130px;
+
 }
+
 /* Get the Latest Deals styles*/
-.deals-container{
+.deals-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 128px;
+    padding: 120px 280px;
     background-image: url("../Flower/background.png")
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.email-box {
+    height: 65px;
+    width: 600px;
+    border: 0;
+    border-radius: 05px;
 }
