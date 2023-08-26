@@ -187,9 +187,12 @@ header {
 }
 .flower-content{
     gap: 25px;
-    align-items: center;
     text-align: center;
     justify-content: space-between;
     display: flex;
     margin-bottom: 130px;
+}
+/* Get the Latest Deals styles*/
+.deals-container{
+    
 }
