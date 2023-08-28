@@ -223,12 +223,18 @@ header {
     margin-bottom: 45px;
 }
 
+.deals-input {
+    display: inline-flex;
+    gap: 25px;
+}
+
 .email-box {
     height: 65px;
     width: 600px;
     border: 0;
     border-radius: 05px;
 }
+
 
 /* flower shop styles */
 .shop-content {
